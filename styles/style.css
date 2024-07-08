@@ -394,3 +394,49 @@ line-height: 40px;
     display: flex;
     justify-content: space-between;
 }
+/* practice discord banner   */
+.discord{
+    min-height:809px;
+    max-width: 1600px;
+    background-image:linear-gradient(0deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/discord.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:120px auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discord-text{
+    border-radius: 50px;
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(34, 5, 5, 0.588);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 30px;
+    opacity: 0.8;
+    
+    /* background-blend-mode:overlay ; */
+}
+.discord-text >h3{ 
+    font-size: 40px;
+    font-weight: 600;
+}
+.discord-icons>i{
+    margin: 0 110px;
+    cursor: pointer;
+}
+.discord-icons>i:hover{
+    transform: scale(1.4);
+    transition: transform 150ms ease-in-out;
+}
+.discord-icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: 500;
+}
